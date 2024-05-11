@@ -1,0 +1,18 @@
+.menu-row {
+    background-color: #333;
+}
+
+.menu-btn {
+    background-color: #333;
+    color: white;
+    padding: 0.6em 1.2em;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #111;
+}
