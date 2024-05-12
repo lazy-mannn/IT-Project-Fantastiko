@@ -1,10 +1,10 @@
 .menu-row {
-    background-color: #333;
+    background-color: whitesmoke;
 }
 
 .menu-btn {
-    background-color: #333;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     padding: 0.6em 1.2em;
     border: none;
     text-decoration: none;
@@ -14,5 +14,5 @@
 }
 
 .menu-btn:hover {
-    background-color: #111;
+    color: red;
 }

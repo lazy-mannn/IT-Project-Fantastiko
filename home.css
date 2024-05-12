@@ -1,18 +1,20 @@
 #firstpage {
     border-style: none;
-    width: 35em; /* 800px / 16px = 50em */
-    height: 18.75em; /* 300px / 16px = 18.75em */
+    width: 35em; 
+    height: 18.75em; 
     font-size: 1.3em;
     text-align: left;
     line-height: 1.4em;
     position: relative;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 #img {
     position: absolute;
-    left: 43em; /* 1000px / 16px = 62.5em */
+    left: 43em; 
     top: 6em;
-    width: 27em; /* 700px / 16px = 43.75em */
+    width: 27em; 
 }
 
 h1 {
@@ -20,34 +22,27 @@ h1 {
 }
 
 #firstlist {
-    margin-left: 1em; /* 100px / 16px = 6.25em */
+    margin-left: 1em; 
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #secondlist {
     border-style: none;
-    width: 30em; /* 800px / 16px = 50em */
-    font-size: 1.3em; /* 22px / 16px = 1.375em */
+    width: 30em; 
+    font-size: 1.3em; 
     text-align: left;
     position: relative;
-    margin-left: 47em; /* 970px / 16px = 60.625em */
+    margin-left: 47em; 
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #secondimg {
     position: absolute;
-    right: 29em; /* 970px / 16px = 60.625em */
-    width: 22em; /* 700px / 16px = 43.75em */
+    right: 29em; 
+    width: 22em; 
 }
 
 #secondpage {
-    line-height: 1.5625em; /* 25px / 16px = 1.5625em */
-}
-
-#cross {
-    position: absolute;
-    top: -14em;
-    left: 17.5em;
-}
-
-body {
-
+    line-height: 1.5625em;
+    font-family: 'Courier New', Courier, monospace; 
 }
