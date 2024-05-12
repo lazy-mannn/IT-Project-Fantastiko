@@ -16,3 +16,10 @@
 .menu-btn:hover {
     color: red;
 }
+
+.logo {
+    position: absolute;
+    top: 1.2em;
+    left: 0em;
+    width: 2em; 
+}
