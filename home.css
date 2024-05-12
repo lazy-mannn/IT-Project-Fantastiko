@@ -1,40 +1,53 @@
-#firstpage{
-border-style:none;
-width: 800px;
-height: 300px;
-font-size: 22px;
-text-align:left;
-line-height: 34px;
-position:relative;
+#firstpage {
+    border-style: none;
+    width: 35em; /* 800px / 16px = 50em */
+    height: 18.75em; /* 300px / 16px = 18.75em */
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 1.4em;
+    position: relative;
 }
-#img{
-        position: absolute;
-        left: 1000px;
-        top: 100px;
-        width: 700px
+
+#img {
+    position: absolute;
+    left: 43em; /* 1000px / 16px = 62.5em */
+    top: 6em;
+    width: 27em; /* 700px / 16px = 43.75em */
 }
-h1{
-    text-align:center;
+
+h1 {
+    text-align: center;
 }
-#firstlist{
-    margin-left:100px;
+
+#firstlist {
+    margin-left: 1em; /* 100px / 16px = 6.25em */
 }
-#secondlist{
-    border-style:none;
-width: 800px;
-font-size: 22px;
-text-align:left;
-position:relative;
-margin-left:970px;
+
+#secondlist {
+    border-style: none;
+    width: 30em; /* 800px / 16px = 50em */
+    font-size: 1.3em; /* 22px / 16px = 1.375em */
+    text-align: left;
+    position: relative;
+    margin-left: 47em; /* 970px / 16px = 60.625em */
 }
-#secondimg{
-    position:absolute;
-    right:970px;
-    width:700px;
+
+#secondimg {
+    position: absolute;
+    right: 29em; /* 970px / 16px = 60.625em */
+    width: 22em; /* 700px / 16px = 43.75em */
 }
-#secondpage{
-    line-height: 25px;
+
+#secondpage {
+    line-height: 1.5625em; /* 25px / 16px = 1.5625em */
 }
-body{
-    
+
+#cross {
+    position: absolute;
+    top: -14em;
+    left: 17.5em;
+}
+
+body {
+
 }
