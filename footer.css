@@ -1,0 +1,20 @@
+.foot {
+    background-color: whitesmoke;
+    color: black;
+    padding: 0.6em 1.2em;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5em;
+    cursor: pointer;
+    align-items: center;
+}
+
+#image {
+    width: 12em;
+    margin: 5em;
+    border-bottom: 0.05em;
+    border-color: gray;
+    border-bottom-style: solid;
+    padding-bottom: 2em;
+}
