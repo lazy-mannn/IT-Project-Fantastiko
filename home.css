@@ -1,0 +1,40 @@
+#firstpage{
+border-style:none;
+width: 800px;
+height: 300px;
+font-size: 22px;
+text-align:left;
+line-height: 34px;
+position:relative;
+}
+#img{
+        position: absolute;
+        left: 1000px;
+        top: 100px;
+        width: 700px
+}
+h1{
+    text-align:center;
+}
+#firstlist{
+    margin-left:100px;
+}
+#secondlist{
+    border-style:none;
+width: 800px;
+font-size: 22px;
+text-align:left;
+position:relative;
+margin-left:970px;
+}
+#secondimg{
+    position:absolute;
+    right:970px;
+    width:700px;
+}
+#secondpage{
+    line-height: 25px;
+}
+body{
+    
+}
