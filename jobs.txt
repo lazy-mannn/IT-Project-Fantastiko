@@ -1,0 +1,3 @@
+Илия Илиев-header и footer, първите две функции в файла, страницата с рецепти, recipes.css, button.css, footer.css
+Александър Серафимов-home page, map page, home.css, ...
+Мая Митовска-alergeni.html, pekarna.html, alergeni.css, pekarna.css и вторите две функции в файла

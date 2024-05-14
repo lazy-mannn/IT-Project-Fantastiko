@@ -26,3 +26,12 @@ function changeCss() {
 }
 
 changeCss();
+
+
+function myFunc() { 
+    window.location.href = "alergeni.html"; 
+} 
+
+function myFunc1() { 
+    window.location.href = "pekarna.html"; 
+} 

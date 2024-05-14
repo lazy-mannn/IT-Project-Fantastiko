@@ -2,6 +2,15 @@ body {
     color: #333;
 }
 
+.alergeni{
+    height: 4em;
+    width: 30.7em;
+    background-color: white;
+    font-size: 55px;
+    color: black;
+
+}
+
 
 .container {
     max-width: 800px;
