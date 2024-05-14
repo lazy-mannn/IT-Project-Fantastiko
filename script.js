@@ -13,3 +13,16 @@ let menuButtons = document.querySelectorAll('.menu-btn');
 menuButtons.forEach(function(current_btn_in_the_array) {
     hideButton(current_btn_in_the_array);
 });
+//Function that changes the margin of the images so the footer look normal and not in two lines
+function changeCss() {
+    let currentUrl = window.location.href;
+    const imageElements = document.querySelectorAll(".foot img");
+
+    if (currentUrl.includes("recipes.html")) {
+        imageElements.forEach(function(image) {
+            image.style.margin = "2em";
+        });
+    }
+}
+
+changeCss();
