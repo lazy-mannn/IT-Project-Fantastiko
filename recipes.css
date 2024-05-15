@@ -45,3 +45,22 @@ body {
     color: #666;
     margin-bottom: 1.25em;
 }
+
+.recipe-item {
+    margin-bottom: 1em;
+    border: 0.07em solid #ddd;
+    padding: 0.7em;
+    border-radius: 0.3em;
+    background-color: #f9f9f9;
+}
+
+.recipe-title {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.recipe-details {
+    margin-top: 1em;
+}

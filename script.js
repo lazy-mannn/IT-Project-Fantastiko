@@ -35,3 +35,21 @@ function myFunc() {
 function myFunc1() { 
     window.location.href = "pekarna.html"; 
 } 
+
+
+function hideShow() {
+    var recipeTitles = document.getElementsByClassName('recipe-title');
+
+    for (var i = 0; i < recipeTitles.length; i++) {
+        recipeTitles[i].addEventListener('click', function() {
+            var recipeDetails = this.nextElementSibling;
+            if (recipeDetails.style.display === 'none') {
+                recipeDetails.style.display = 'block';
+            } else {
+                recipeDetails.style.display = 'none';
+            }
+        });
+    }
+};
+
+hideShow();
